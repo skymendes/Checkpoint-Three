@@ -1,0 +1,48 @@
+h1, h2, h3{
+    color: rgb(51, 50, 50);
+    text-align: center;
+ }
+body{
+    margin: 30px;
+    background: url(http://www.zingerbug.com/Backgrounds/background_images/multi_colored_pastel_vertical_stripes.gif);
+
+}
+#wholeBoard{
+    border: 1px solid white;
+    width: 300px;
+    height: 300px;
+    margin-left: 600px;
+    background-color: rgb(173, 253, 226);
+    opacity: 1;
+}
+button{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+}
+.board{
+    display: flex;
+    flex-direction: row;
+
+}
+.mole{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    margin: 20px;
+} 
+#winner{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    color: rgb(51, 50, 50);
+    text-align: center;
+}
+button{
+    color: rgb(51, 50, 50);
+    border: none;
+    width: 50px;
+    height: auto;
+    text-transform: capitalize;
+}
